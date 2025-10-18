@@ -68,7 +68,7 @@ p {
     }
 
     .main-container {
-        display: grid;
+        display: flex;
         align-items: center;
         justify-content: center;
     }
@@ -80,6 +80,8 @@ p {
     object-fit: cover;
     margin-top: 20px;
     margin-bottom: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 p {
@@ -87,10 +89,8 @@ p {
     font-family: "Lobster", sans-serif;
     font-weight: 400;
     font-style: normal;
-    display: flex;
-    align-items: center;
     text-align: center;
-    justify-content: center;
+    margin-left: 80px;
     color: #4c484f;
 }
 
@@ -108,6 +108,7 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     justify-content: center;
+    margin-left: 110px;
 }
 
 #content {
