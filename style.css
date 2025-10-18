@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+    * {
+        user-select: none;
+    }
+
+    body {
+        background-image: url(background.png);
+    }
+
+    .main-container {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img {
+    border-radius: 8px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 40px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #4c484f;
+}
+
+#heart-image {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin: 0;
+    margin-bottom: 45px;
+    margin-top: 20px;
+}
+
+#hello {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    justify-content: center;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width:900px) {
+
+    * {
+        user-select: none;
+    }
+
+    body {
+        background-image: url(background.png);
+    }
+
+    .main-container {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img {
+    border-radius: 8px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 40px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #4c484f;
+}
+
+#heart-image {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin: 0;
+    margin-bottom: 45px;
+    margin-top: 20px;
+}
+
+#hello {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    justify-content: center;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+}
